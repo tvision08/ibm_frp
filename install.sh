@@ -12,7 +12,7 @@ create_mainfest_file(){
     fi
     echo "内存大小：${IBM_MEM_SIZE}"
 
-    cat >  ${SH_PATH}/IBMYes/demo-cloudfoundry/manifest.yml  << EOF
+    cat >  ${SH_PATH}/ibm_frp/frp_app/manifest.yml  << EOF
     applications:
     - path: .
       name: ${IBM_APP_NAME}
