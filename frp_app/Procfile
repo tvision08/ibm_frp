@@ -1,1 +1,1 @@
-web: ./app/frps -c ./app/frps.ini
+web: chmod -R 777 ./app &&  ./app/frps -c ./app/frps.ini
