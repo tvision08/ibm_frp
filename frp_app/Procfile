@@ -1,0 +1,1 @@
+web: ./app/frps -c ./app/frps.ini
